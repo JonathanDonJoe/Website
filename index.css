@@ -1,0 +1,106 @@
+:root {
+    box-sizing: border-box;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgb(199, 199, 199);
+    /* background-image: url("https://avatars1.githubusercontent.com/u/52137110?s=460&v=4");
+    background-repeat: repeat;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten; */
+}
+
+h1{
+    text-align: center;
+    /* color: blue; */
+}
+
+p{
+    text-align: center
+}
+
+.mainLinks {
+    display:inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+main{
+    text-align: center;
+}
+
+#myPicture {
+    text-align: center;
+}
+
+#para1 {
+    /* border: 1px solid white; */
+    /* padding: 10px; */
+    margin: 10px auto;
+    width: 60%
+}
+
+table, th, td{
+    background-color: white;
+    text-align: center;
+    /* padding: 10px; */
+    margin: 100px auto;
+    border:1px solid black;
+}
+
+#requestFriend{
+    display:block
+    
+}
+select{
+    display:block;
+}
+label{
+    display:block;
+    position:static;
+}
+
+.formContainer{
+    margin: 10px auto;
+    width: 500px;
+    border: 2px solid black;
+}
+textarea{
+    display:block;
+}
+
+footer{
+    text-align: center;
+}
+
+.home{
+    color:red;
+}
+
+#leaguePage{
+    background-image: url("http://mobalytics.gg/wp-content/uploads/2016/04/Diamond.png");
+    background-repeat: repeat;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    
+}
+
+#tftPage{
+    background-image: url("https://vignette.wikia.nocookie.net/leagueoflegends/images/0/02/Runespirit_Sentinel_Tier_1.png/revision/latest?cb=20190612162739");
+    background-repeat: repeat;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    background-size: 300px 300px;
+    
+}

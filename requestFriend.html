@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Requests</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <h1>
+        Friend Requests
+    </h1>
+    <div id="myPicture">
+        <img width="400" src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/entertainment/5b2fefb9fae96f45b7000002.jpeg" alt="PoE Icon">
+    </div>
+    <p>
+        This might seem a bit excessive, but my pending friend requests is at its limit in many games.  Therefore you'll need to submit this form so I can manually add you.  /humblebrag <br/>
+        It's not because I have simple in game names.  I swear. <br/>
+        If only I knew how to store inputted info...
+    </p>
+    <form class="formContainer">
+        <select name="game">
+            <option value="leagueOfLegends">League of Legends</option>
+            <option value="leagueOfLegends">Path of Exile</option>
+        </select>
+        <label>Enter your IGN:</label>
+        <input required aria-required="true" type = "text" name="ign" placeholder="xX420Noobslayer69Xx"/>
+        <input type="checkbox" name="requestSent">
+        <label style="display:inline">In game request sent</label>
+        <label>Additional information or requests</label>
+        <textarea name="additionalInfo" rows="4" cols="50"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <footer>
+        <a class="home" href="./index.html">Home</a>
+    </footer>
+</body>
+</html>
